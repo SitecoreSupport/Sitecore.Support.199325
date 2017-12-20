@@ -69,7 +69,9 @@ Sitecore.PageModes.Testing.Panel = Sitecore.PageModes.RichControls.Panel.extend(
       return badge;
     }
 
-    var idx = $sc.inArray(activeVariation, context.items());
+    var var_items = context.items();
+    var idx = $sc.inArray(activeVariation, var_items);
+    idx = var_items.length - 1 - idx;
     if (idx < 0) {
       return badge;
     }
