@@ -56,9 +56,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="sitecore\shell\Applications\Page Modes\Testing\Panel.js">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
+    <Content Include="sitecore\shell\Applications\Page Modes\Testing\Panel.js" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
