@@ -56,7 +56,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Config\Include\zzz\Sitecore.Support.199325.config" />
     <Content Include="sitecore\shell\Applications\Page Modes\Testing\Panel.js">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
